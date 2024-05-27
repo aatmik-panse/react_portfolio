@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #9b9b9b;
+  color: #112d4e;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.who-i-am {
+  max-width: 600px;
+}
+
+.who-i-am h1 {
+  font-size: 3em;
+  color: #112d4e;
+}
+
+.who-i-am p {
+  font-size: 1.2em;
+  line-height: 1.6em;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: auto;
+  height: 80vh;
+  padding: 28px;
+}
+
+.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+  width: 70%;
+}
