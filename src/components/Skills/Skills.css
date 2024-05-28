@@ -1,0 +1,62 @@
+.skills-container {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.skills-container h2 {
+  font-size: 2.5em;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.scroll {
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.m-scroll {
+  overflow: hidden;
+  height: 100%;
+  white-space: nowrap;
+  animation: scrollText 20s infinite linear;
+  margin: 0;
+  font-size: 0;
+  display: flex;
+  justify-content: space-between;
+  width: fit-content;
+}
+
+.skill-item {
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+  background-color: #112d4e;
+  padding: 20px;
+  border-radius: 10px;
+  color: #3f72af;
+}
+
+.skill-item img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.skill-item p {
+  margin: 0;
+  font-size: 1.2em;
+  color: white;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
