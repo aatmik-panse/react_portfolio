@@ -22,12 +22,13 @@ body {
 
 .who-i-am h1 {
   font-size: 3em;
-  color: #112d4e;
+  color: #000000;
 }
 
 .who-i-am p {
   font-size: 1.2em;
   line-height: 1.6em;
+  color: #112d4e;
 }
 
 .image-container {
