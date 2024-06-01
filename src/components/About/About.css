@@ -1,36 +1,16 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #9b9b9b;
-  color: #112d4e;
-  height: 100vh;
-  width: 100vw;
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 50px;
-}
-
 .who-i-am {
   max-width: 600px;
-}
-
-.who-i-am h1 {
-  font-size: 3em;
-  color: #000000;
 }
 
 .who-i-am p {
   font-size: 1.2em;
   line-height: 1.6em;
-  color: #112d4e;
+  color: var(--var-soft-blue);
 }
-
+.who-i-am h1 {
+  font-size: 3em;
+  color: var(--var-main-title);
+}
 .image-container {
   display: flex;
   justify-content: center;

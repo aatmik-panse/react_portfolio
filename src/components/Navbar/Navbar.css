@@ -1,23 +1,18 @@
 .nb {
-  color: rgb(26, 26, 26);
-  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   padding: 8px;
   width: 100%;
-  z-index: 100;
-  border-radius: 20px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 #nbImg {
   width: 50px;
   height: 50px;
-  padding: 8px;
-  margin-right: 10px;
+  margin-right: 20px;
+  filter: invert(0.75) hue-rotate(100deg);
 }
 h1 {
-  font-size: 1.6rem;
+  font-size: 2rem;
   margin-left: 10px;
 }

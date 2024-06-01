@@ -1,0 +1,12 @@
+.projectParent {
+  background-color: var(--var-main-darkest);
+  color: var(--var-soft-blue);
+  padding: 10px;
+}
+.projectParent h1 {
+  font-size: 3em;
+  color: var(--var-main-title);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}

@@ -53,7 +53,7 @@ const data = [
 export default function Skills() {
   return (
     <div className="skills-container">
-      <h1 className="skills-title"> SKILLS </h1>
+      <h1> SKILLS </h1>
       <Marquee
         gradient={false}
         speed={80}

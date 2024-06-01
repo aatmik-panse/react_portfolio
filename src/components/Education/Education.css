@@ -4,7 +4,8 @@
   justify-content: space-around;
   align-items: center;
   padding: 50px;
-  color: #3f72af;
+  color: var(--var-soft-blue);
+  background-color: var(--var-main-darkest);
 }
 
 .education {
@@ -13,7 +14,6 @@
 
 .education h1 {
   font-size: 3em;
-  color: #3f72af;
   margin-bottom: 30px;
 }
 

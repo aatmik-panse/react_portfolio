@@ -4,11 +4,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 0.5rem;
-  overflow: hidden;
+  background-color: var(--var-main-darkest);
 }
-.skills-title {
+
+.skills-container h1 {
   font-size: 3em;
-  color: #3f72af;
-  margin-bottom: 30px;
+  color: var(--var-main-title);
 }
