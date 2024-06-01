@@ -30,7 +30,9 @@ export default function Projects() {
     <div className="projectParent">
       <h1>Projects</h1>
       <div className="misc">
-        <ResponsiveMasonry columnsCountBreakPoints={{ 350: 2, 750: 3, 900: 4 }}>
+        <ResponsiveMasonry
+          columnsCountBreakPoints={{ 350: 1, 480: 2, 750: 3, 900: 4 }}
+        >
           <Masonry spacing={2}>
             {projects.map((project, index) => (
               <ProjectCard

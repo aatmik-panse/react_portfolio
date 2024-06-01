@@ -1,7 +1,7 @@
 .projectParent {
   background-color: var(--var-main-darkest);
   color: var(--var-soft-blue);
-  padding: 10px;
+  padding: 2.5em;
 }
 .projectParent h1 {
   font-size: 3em;
