@@ -1,17 +1,17 @@
-.edContainer {
+.exContainer {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   padding: 50px;
   color: #3f72af;
 }
 
-.education {
-  max-width: 30vw;
+.experience {
+  max-width: 35vw;
 }
 
-.education h1 {
+.experience h1 {
   font-size: 3em;
   color: #3f72af;
   margin-bottom: 30px;
@@ -25,5 +25,5 @@
 
 .image-container img {
   max-width: auto;
-  height: 75vh;
+  height: 70vh;
 }

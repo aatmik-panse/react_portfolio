@@ -1,0 +1,34 @@
+.card-item {
+  display: flex;
+  align-items: center;
+  background-color: #112d4e;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card-icon {
+  margin-right: 20px;
+}
+
+.card-icon img {
+  width: 70px;
+  height: 70px;
+}
+
+.card-content h2 {
+  color: #afafaf;
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.card-content h3 {
+  margin: 5px 0;
+  font-size: 1.5em;
+}
+
+.card-content p {
+  margin: 0;
+  font-size: 1.2em;
+  color: #d3d3d3;
+}
