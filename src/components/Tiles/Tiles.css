@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: space-between;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   cursor: pointer;
   background-color: rgba(240, 255, 255, 0.346);

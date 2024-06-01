@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProjectCard.css";
+import { FaGithub, FaSwift } from "react-icons/fa6";
 
 export default function ProjectCard({
   project,
@@ -20,19 +21,14 @@ export default function ProjectCard({
         <p>{description}</p>
         <div className="pc-flex-row">
           <div className="pc-coin-base">
-            <img
-              src="https://cdn.iconscout.com/icon/free/png-512/free-github-159-721954.png"
-              alt="Github"
-              className="pc-small-image"
-            />
+            <i alt="Github" className="pc-small-image">
+              <FaGithub size={36} />
+            </i>
           </div>
           <div className="pc-time-left">
-            <img
-              src="https://i.postimg.cc/prpyV4mH/clock-selection-no-bg.png"
-              alt="clock"
-              className="pc-small-image"
-            />
-            <p>{time}</p>
+            <i alt="clock" className="pc-small-image">
+              <FaSwift size={36} />
+            </i>
           </div>
         </div>
       </main>

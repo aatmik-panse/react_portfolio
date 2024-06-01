@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
-import logo from "/Users/aatmikpanse/dev/portfolio/react-portfolio/src/burger-menu-left-svgrepo-com.png";
-import CloseRoundedIcon from "/Users/aatmikpanse/dev/portfolio/react-portfolio/src/components/svgviewer-png-output.png";
+import { HiOutlineMenuAlt1 } from "react-icons/hi";
 
-export default function Navbar() {
-  let [sideButton, setSide] = useState(false);
+export default function Navbar(icon) {
   const [show, setShow] = useState(true);
-  let btn = logo;
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
@@ -18,20 +15,12 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const sideBar = () => {
-    setSide(!sideButton);
-  };
-
-  if (sideButton) {
-    btn = CloseRoundedIcon;
-  } else {
-    btn = logo;
-  }
-
   return show ? (
     <div className="nb">
       <h1>Aatmik Panse</h1>
-      <img src={btn} alt="logo" id="nbImg" onClick={sideBar} />
+      <i alt="logo" id="nbImg">
+        <HiOutlineMenuAlt1 size={50} />
+      </i>
     </div>
   ) : null;
 }

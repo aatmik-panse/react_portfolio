@@ -1,10 +1,12 @@
 import React from "react";
 import "./Education.css";
-import graduationCap from "/Users/aatmikpanse/dev/portfolio/react-portfolio/src/graduation-cap.png";
 import deskIllustration from "/Users/aatmikpanse/dev/portfolio/react-portfolio/src/desk-illustration.png";
 import Card from "../Card";
-import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
+import { FaGraduationCap } from "react-icons/fa";
 
+function graduationComponent() {
+  return <FaGraduationCap size={86} />;
+}
 export default function Education() {
   const education = [
     {
@@ -35,7 +37,7 @@ export default function Education() {
               year={edu.year}
               title={edu.title}
               subtitle={edu.subtitle}
-              image={graduationCap}
+              image={graduationComponent()}
             />
           ))}
         </div>

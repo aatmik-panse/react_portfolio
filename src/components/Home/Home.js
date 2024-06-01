@@ -2,6 +2,7 @@ import React from "react";
 import dp from "/Users/aatmikpanse/dev/portfolio/react-portfolio/src/dp.jpeg";
 import "./Home.css";
 import Typing from "../Typing/Typing";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -10,25 +11,19 @@ export default function Home() {
         <img src={dp} alt="Profile" className="hImg" />
         <div id="hLogos">
           <a href="https://github.com/aatmik-panse">
-            <img
-              src="https://img.icons8.com/ios-glyphs/500/000000/github.png"
-              alt="GitHub"
-              className="hIcon"
-            />
+            <i className="hIcon">
+              <FaGithub size={50} />
+            </i>
           </a>
           <a href="https://www.linkedin.com/in/aatmikpanse">
-            <img
-              src="https://img.icons8.com/ios-glyphs/500/000000/linkedin.png"
-              alt="LinkedIn"
-              className="hIcon"
-            />
+            <i className="hIcon">
+              <FaLinkedin size={50} />
+            </i>
           </a>
           <a href="https://twitter.com">
-            <img
-              src="https://img.icons8.com/ios-glyphs/500/000000/twitter.png"
-              alt="Twitter"
-              className="hIcon"
-            />
+            <i className="hIcon">
+              <FaTwitter size={50} />
+            </i>
           </a>
         </div>
       </aside>

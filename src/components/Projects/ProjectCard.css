@@ -6,6 +6,7 @@
   border-radius: 15px;
   margin-bottom: 1rem;
   padding: 1rem;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 .pc-flex-row {
@@ -28,14 +29,12 @@
   padding: 1em 1em;
 }
 
-.pc-card-attribute {
-  padding-bottom: 1.5em;
-  border-top: 2px solid var(--var-line-dark);
-}
-
 .pc-hero-image-container {
   position: relative;
   display: block;
+}
+a {
+  text-decoration: none;
 }
 
 .pc-hero-image-container::after {

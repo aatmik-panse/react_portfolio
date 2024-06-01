@@ -1,8 +1,12 @@
 import React from "react";
 import "./Experience.css";
 import Card from "../Card";
-import work from "/Users/aatmikpanse/dev/portfolio/react-portfolio/src/svgexport-1.svg";
 import deskIllustration from "/Users/aatmikpanse/dev/portfolio/react-portfolio/src/illusCoding.png";
+import { LuLaptop } from "react-icons/lu";
+
+function workComponent() {
+  return <LuLaptop size={86} />;
+}
 
 export default function Experience() {
   return (
@@ -11,19 +15,19 @@ export default function Experience() {
         <div className="experience">
           <h1>EXPERIENCE</h1>
           <Card
-            image={work}
+            image={workComponent()}
             title="Web Developer"
             year="2021 - Present"
             subtitle="Aceternity UI"
           />
           <Card
-            image={work}
+            image={workComponent()}
             title="Android Developer"
             year="2020 - 2021"
             subtitle="Zolo"
           />
           <Card
-            image={work}
+            image={workComponent()}
             title="Intern"
             year="2019 - 2020"
             subtitle="Google"
