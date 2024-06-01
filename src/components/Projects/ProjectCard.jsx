@@ -12,7 +12,7 @@ export default function ProjectCard({
   return (
     <div className="pc-card-container">
       <a href="/" className="pc-hero-image-container">
-        <img className="pc-hero-image" src={image} alt="Project Hero Image" />
+        <img className="pc-hero-image" src={image} alt="heroImgae" />
       </a>
       <main className="pc-main-content">
         <h2>
@@ -21,12 +21,12 @@ export default function ProjectCard({
         <p>{description}</p>
         <div className="pc-flex-row">
           <div className="pc-coin-base">
-            <i alt="Github" className="pc-small-image">
+            <i className="pc-small-image">
               <FaGithub size={36} />
             </i>
           </div>
           <div className="pc-time-left">
-            <i alt="clock" className="pc-small-image">
+            <i className="pc-small-image">
               <FaSwift size={36} />
             </i>
           </div>

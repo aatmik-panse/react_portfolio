@@ -10,17 +10,25 @@ export default function Home() {
       <aside className="left-container">
         <img src={dp} alt="Profile" className="hImg" />
         <div id="hLogos">
-          <a href="https://github.com/aatmik-panse">
+          <a
+            href="https://github.com/aatmik-panse"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="hIcon">
               <FaGithub size={50} />
             </i>
           </a>
-          <a href="https://www.linkedin.com/in/aatmikpanse">
+          <a
+            href="https://www.linkedin.com/in/aatmikpanse"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="hIcon">
               <FaLinkedin size={50} />
             </i>
           </a>
-          <a href="https://twitter.com">
+          <a href="https://twitter.com" target="_blank" rel="noreferrer">
             <i className="hIcon">
               <FaTwitter size={50} />
             </i>

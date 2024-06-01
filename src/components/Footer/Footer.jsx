@@ -23,31 +23,31 @@ export default function Footer() {
             <h3>Aatmik</h3>
 
             <p className="footer-links">
-              <a href="#" className="link-1">
+              <a href="#home" className="link-1">
                 <AiFillHome /> Home
               </a>
 
-              <a href="#">
+              <a href="#education">
                 <FaBook />
                 Education
               </a>
 
-              <a href="#">
+              <a href="#skills">
                 <GiBrain />
                 Skills
               </a>
 
-              <a href="#">
+              <a href="#about">
                 <BsInfoCircleFill />
                 About
               </a>
 
-              <a href="#">
+              <a href="#experience">
                 <BsFillEmojiSunglassesFill />
                 Experience
               </a>
 
-              <a href="#">
+              <a href="#projects">
                 <DiGoogleAnalytics />
                 Projects
               </a>
@@ -75,16 +75,28 @@ export default function Footer() {
 
           <div className="footer-right">
             <div className="footer-icons">
-              <a href="#">
+              <a
+                href="https://github.com/aatmik-panse"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaGithub />
               </a>
-              <a href="#">
+              <a
+                href="https://www.linkedin.com/in/aatmikpanse"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaLinkedin />
               </a>
-              <a href="#">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaFacebook />
               </a>
-              <a href="#">
+              <a href="https://twitter.com/" target="_blank" rel="noreferrer">
                 <FaTwitter />
               </a>
             </div>
