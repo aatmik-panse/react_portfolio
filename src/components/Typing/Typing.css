@@ -1,0 +1,25 @@
+.typing-effect {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000000;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carret {
+  width: 0.15rem;
+  height: 1.2rem;
+  margin: 0 0.1rem;
+  background-color: #000000;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
