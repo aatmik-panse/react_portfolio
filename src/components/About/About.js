@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import personIllustration from "/Users/aatmikpanse/dev/portfolio/react-portfolio/src/illusCoding.png";
 
 export default function About() {
   return (
@@ -17,7 +16,10 @@ export default function About() {
           </p>
         </div>
         <div className="image-container">
-          <img src={personIllustration} alt="Person illustration" />
+          <img
+            src="https://i.imghippo.com/files/IFHRr1717266832.png"
+            alt="Person illustration"
+          />
         </div>
       </div>
     </div>

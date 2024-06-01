@@ -1,5 +1,4 @@
 import React from "react";
-import dp from "/Users/aatmikpanse/dev/portfolio/react-portfolio/src/dp.jpeg";
 import "./Home.css";
 import Typing from "../Typing/Typing";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa6";
@@ -8,7 +7,11 @@ export default function Home() {
   return (
     <div id="home">
       <aside className="left-container">
-        <img src={dp} alt="Profile" className="hImg" />
+        <img
+          src="https://i.imghippo.com/files/0TrNU1717267359.jpg"
+          alt="Profile"
+          className="hImg"
+        />
         <div id="hLogos">
           <a
             href="https://github.com/aatmik-panse"
@@ -58,7 +61,9 @@ export default function Home() {
             grow.
           </p>
 
-          <button className="hButton">Contact Me</button>
+          <a href="mailto:dev.aatmik@gmail.com">
+            <button className="hButton">Contact Me</button>
+          </a>
         </div>
       </section>
     </div>

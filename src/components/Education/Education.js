@@ -1,6 +1,5 @@
 import React from "react";
 import "./Education.css";
-import deskIllustration from "/Users/aatmikpanse/dev/portfolio/react-portfolio/src/desk-illustration.png";
 import Card from "../Card";
 import { FaGraduationCap } from "react-icons/fa";
 
@@ -42,7 +41,10 @@ export default function Education() {
           ))}
         </div>
         <div className="image-container">
-          <img src={deskIllustration} alt="Desk illustration" />
+          <img
+            src="https://i.imghippo.com/files/HdjaZ1717267319.png"
+            alt="Desk illustration"
+          />
         </div>
       </div>
     </div>

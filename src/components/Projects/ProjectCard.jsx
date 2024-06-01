@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectCard.css";
-import { FaGithub, FaSwift } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
 
 export default function ProjectCard({
   project,
@@ -8,15 +8,23 @@ export default function ProjectCard({
   description,
   time,
   url = "https://github.com/aatmik-panse",
+  logo,
 }) {
   return (
     <div className="pc-card-container">
-      <a href="/" className="pc-hero-image-container">
+      <a
+        href={url}
+        target="_blank"
+        rel="noreferrer"
+        className="pc-hero-image-container"
+      >
         <img className="pc-hero-image" src={image} alt="heroImgae" />
       </a>
       <main className="pc-main-content">
         <h2>
-          <a href={url}>{project}</a>
+          <a href={url} target="_blank" rel="noreferrer">
+            {project}
+          </a>
         </h2>
         <p>{description}</p>
         <div className="pc-flex-row">
@@ -26,9 +34,7 @@ export default function ProjectCard({
             </i>
           </div>
           <div className="pc-time-left">
-            <i className="pc-small-image">
-              <FaSwift size={36} />
-            </i>
+            <i className="pc-small-image">{logo}</i>
           </div>
         </div>
       </main>

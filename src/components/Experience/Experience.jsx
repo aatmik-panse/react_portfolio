@@ -1,7 +1,6 @@
 import React from "react";
 import "./Experience.css";
 import Card from "../Card";
-import deskIllustration from "/Users/aatmikpanse/dev/portfolio/react-portfolio/src/illusCoding.png";
 import { LuLaptop } from "react-icons/lu";
 
 function workComponent() {
@@ -17,24 +16,27 @@ export default function Experience() {
           <Card
             image={workComponent()}
             title="Web Developer"
-            year="2021 - Present"
-            subtitle="Aceternity UI"
+            year="2023 - Present"
+            subtitle="SST"
           />
           <Card
             image={workComponent()}
             title="Android Developer"
-            year="2020 - 2021"
+            year="2023 - 2024"
             subtitle="Zolo"
           />
           <Card
             image={workComponent()}
-            title="Intern"
-            year="2019 - 2020"
-            subtitle="Google"
+            title="Java Developer"
+            year="2024 - Present"
+            subtitle="Scaler"
           />
         </div>
         <div className="image-container">
-          <img src={deskIllustration} alt="Desk illustration" />
+          <img
+            src="https://i.imghippo.com/files/IFHRr1717266832.png"
+            alt="Desk illustration"
+          />
         </div>
       </div>
     </div>
