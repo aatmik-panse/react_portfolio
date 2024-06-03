@@ -4,6 +4,7 @@ import { HiOutlineMenuAlt1 } from "react-icons/hi";
 import { FaHome, FaInfoCircle } from "react-icons/fa";
 import { GiBrain } from "react-icons/gi";
 import { DiGoogleAnalytics } from "react-icons/di";
+import { FaXmark } from "react-icons/fa6";
 
 export default function Navbar() {
   const [show, setShow] = useState(true);
@@ -72,7 +73,11 @@ export default function Navbar() {
         <div className="nb">
           <h1>Aatmik Panse</h1>
           <i alt="logo" id="nbImg" onClick={togglePopup} ref={menuIconRef}>
-            <HiOutlineMenuAlt1 size={50} />
+            {showPopup ? (
+              <FaXmark size={50} />
+            ) : (
+              <HiOutlineMenuAlt1 size={50} />
+            )}
           </i>
         </div>
       )}
