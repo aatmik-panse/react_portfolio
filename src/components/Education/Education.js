@@ -44,6 +44,7 @@ export default function Education() {
           <img
             src="https://i.imghippo.com/files/HdjaZ1717267319.png"
             alt="Desk illustration"
+            loading="lazy"
           />
         </div>
       </div>

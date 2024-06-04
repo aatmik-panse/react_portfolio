@@ -48,6 +48,24 @@ const data = [
       "https://cdn.iconscout.com/icon/free/png-512/free-swift-282412.png?f=webp&w=1000",
     Skill: "Swift",
   },
+
+  {
+    imgURL: "https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg",
+    Skill: "MySQL",
+  },
+
+  {
+    imgURL: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+    Skill: "Git",
+  },
+  {
+    imgURL: "https://www.vectorlogo.zone/logos/github/github-icon.svg",
+    Skill: "GitHub",
+  },
+  {
+    Skill: "Shell Scripting",
+    imgURL: "https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg",
+  },
 ];
 
 export default function Skills() {

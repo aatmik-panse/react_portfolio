@@ -36,6 +36,7 @@ export default function Experience() {
           <img
             src="https://i.imghippo.com/files/IFHRr1717266832.png"
             alt="Desk illustration"
+            loading="lazy"
           />
         </div>
       </div>

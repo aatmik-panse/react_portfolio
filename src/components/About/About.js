@@ -19,6 +19,7 @@ export default function About() {
           <img
             src="https://i.imghippo.com/files/IFHRr1717266832.png"
             alt="Person illustration"
+            loading="lazy"
           />
         </div>
       </div>

@@ -9,8 +9,15 @@ export default function Home() {
       <aside className="left-container">
         <img
           src="https://i.imghippo.com/files/0TrNU1717267359.jpg"
-          alt="Profile"
+          srcSet="
+            https://i.imghippo.com/files/0TrNU1717267359.jpg?w=400 400w,
+            https://i.imghippo.com/files/0TrNU1717267359.jpg?w=800 800w,
+            https://i.imghippo.com/files/0TrNU1717267359.jpg?w=1200 1200w
+          "
+          sizes="(max-width: 600px) 400px, (max-width: 1200px) 800px, 1200px"
+          alt="Profile of Aatmik Panse"
           className="hImg"
+          fetchpriority="high"
         />
         <div id="hLogos">
           <a

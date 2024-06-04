@@ -18,7 +18,12 @@ export default function ProjectCard({
         rel="noreferrer"
         className="pc-hero-image-container"
       >
-        <img className="pc-hero-image" src={image} alt="heroImgae" />
+        <img
+          className="pc-hero-image"
+          src={image}
+          alt="heroImgae"
+          loading="lazy"
+        />
       </a>
       <main className="pc-main-content">
         <h2>
