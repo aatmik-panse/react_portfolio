@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-
+import codeImg from "../../assets/codeImg.webp";
 export default function About() {
   return (
     <div>
@@ -16,11 +16,7 @@ export default function About() {
           </p>
         </div>
         <div className="image-container">
-          <img
-            src="https://i.imghippo.com/files/IFHRr1717266832.png"
-            alt="Person illustration"
-            loading="lazy"
-          />
+          <img src={codeImg} alt="Person illustration" loading="lazy" />
         </div>
       </div>
     </div>

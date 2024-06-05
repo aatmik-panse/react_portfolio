@@ -1,10 +1,11 @@
 import React from "react";
 import "./ProjectCard.css";
 import { FaGithub } from "react-icons/fa6";
+import eqbImg from "../../assets/eqbImg.webp";
 
 export default function ProjectCard({
   project,
-  image = "https://i.postimg.cc/NfR2yhNs/image-equilibrium.jpg",
+  image = eqbImg,
   description,
   time,
   url = "https://github.com/aatmik-panse",

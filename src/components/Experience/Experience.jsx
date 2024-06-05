@@ -2,6 +2,7 @@ import React from "react";
 import "./Experience.css";
 import Card from "../Card";
 import { LuLaptop } from "react-icons/lu";
+import codeImg from "../../assets/codeImg.webp";
 
 function workComponent() {
   return <LuLaptop size={86} />;
@@ -33,11 +34,7 @@ export default function Experience() {
           />
         </div>
         <div className="image-container">
-          <img
-            src="https://i.imghippo.com/files/IFHRr1717266832.png"
-            alt="Desk illustration"
-            loading="lazy"
-          />
+          <img src={codeImg} alt="Desk illustration" loading="lazy" />
         </div>
       </div>
     </div>

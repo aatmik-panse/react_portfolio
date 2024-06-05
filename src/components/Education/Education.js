@@ -2,6 +2,7 @@ import React from "react";
 import "./Education.css";
 import Card from "../Card";
 import { FaGraduationCap } from "react-icons/fa";
+import deskImg from "../../assets/deskImg.webp";
 
 function graduationComponent() {
   return <FaGraduationCap size={86} />;
@@ -41,11 +42,7 @@ export default function Education() {
           ))}
         </div>
         <div className="image-container">
-          <img
-            src="https://i.imghippo.com/files/HdjaZ1717267319.png"
-            alt="Desk illustration"
-            loading="lazy"
-          />
+          <img src={deskImg} alt="Desk illustration" loading="lazy" />
         </div>
       </div>
     </div>
