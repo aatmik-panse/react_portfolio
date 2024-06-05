@@ -23,31 +23,31 @@ export default function Footer() {
             <h3>Aatmik</h3>
 
             <p className="footer-links">
-              <a href="#home" className="link-1">
+              <a href="#home" className="link-1" aria-label="Home">
                 <AiFillHome /> Home
               </a>
 
-              <a href="#education">
+              <a href="#education" aria-label="Education">
                 <FaBook />
                 Education
               </a>
 
-              <a href="#skills">
+              <a href="#skills" aria-label="Skills">
                 <GiBrain />
                 Skills
               </a>
 
-              <a href="#about">
+              <a href="#about" aria-label="About">
                 <BsInfoCircleFill />
                 About
               </a>
 
-              <a href="#experience">
+              <a href="#experience" aria-label="Experience">
                 <BsFillEmojiSunglassesFill />
                 Experience
               </a>
 
-              <a href="#projects">
+              <a href="#projects" aria-label="Projects">
                 <DiGoogleAnalytics />
                 Projects
               </a>
@@ -68,7 +68,9 @@ export default function Footer() {
                 <FaEnvelope />
               </i>
               <p>
-                <a href="mailto:dev.aatmik@gmail.com">dev.aatmik@gmail.com</a>
+                <a href="mailto:dev.aatmik@gmail.com" aria-label="Email">
+                  dev.aatmik@gmail.com
+                </a>
               </p>
             </div>
           </div>
@@ -79,6 +81,7 @@ export default function Footer() {
                 href="https://github.com/aatmik-panse"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Github"
               >
                 <FaGithub />
               </a>
@@ -86,6 +89,7 @@ export default function Footer() {
                 href="https://www.linkedin.com/in/aatmikpanse"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Linkedin"
               >
                 <FaLinkedin />
               </a>
@@ -93,10 +97,16 @@ export default function Footer() {
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Facebook"
               >
                 <FaFacebook />
               </a>
-              <a href="https://twitter.com/" target="_blank" rel="noreferrer">
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Twitter"
+              >
                 <FaTwitter />
               </a>
             </div>

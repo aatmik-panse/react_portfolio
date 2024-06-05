@@ -18,6 +18,7 @@ export default function Home() {
             href="https://github.com/aatmik-panse"
             target="_blank"
             rel="noreferrer"
+            aria-label="Github"
           >
             <i className="hIcon">
               <FaGithub size={50} />
@@ -27,12 +28,18 @@ export default function Home() {
             href="https://www.linkedin.com/in/aatmikpanse"
             target="_blank"
             rel="noreferrer"
+            aria-label="Linkedin"
           >
             <i className="hIcon">
               <FaLinkedin size={50} />
             </i>
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Twitter"
+          >
             <i className="hIcon">
               <FaTwitter size={50} />
             </i>
@@ -62,7 +69,7 @@ export default function Home() {
             grow.
           </p>
 
-          <a href="mailto:dev.aatmik@gmail.com">
+          <a href="mailto:dev.aatmik@gmail.com" aria-label="Contact Me">
             <button className="hButton">Contact Me</button>
           </a>
         </div>

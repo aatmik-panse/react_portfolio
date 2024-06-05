@@ -28,7 +28,7 @@ export default function ProjectCard({
       </a>
       <main className="pc-main-content">
         <h2>
-          <a href={url} target="_blank" rel="noreferrer">
+          <a href={url} target="_blank" rel="noreferrer" aria-label={project}>
             {project}
           </a>
         </h2>
