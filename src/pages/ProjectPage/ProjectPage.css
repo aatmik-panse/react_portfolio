@@ -10,3 +10,25 @@
   justify-content: center;
   display: flex;
 }
+.backButton {
+  width: 1.8vw;
+  height: 1.8vw;
+  background-color: var(--var-main-darkest);
+  color: var(--var-soft-blue);
+  padding: 1em;
+  border: 1px solid var(--var-soft-blue);
+  border-radius: 18%;
+  cursor: pointer;
+  font-family: var(--var-small-heading);
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1em;
+}
+.backButton:hover {
+  color: var(--var-main-title);
+  transition: 0.3s;
+  border: 1px solid var(--var-main-title);
+  scale: 1.02;
+}

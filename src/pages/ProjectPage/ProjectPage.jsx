@@ -3,6 +3,28 @@ import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import { Link } from "react-router-dom";
 import ProjectCard from "../../components/Projects/ProjectCard";
 import "./ProjectPage.css";
+import {
+  FaSwift,
+  FaAndroid,
+  FaJava,
+  FaReact,
+  FaArrowLeft,
+} from "react-icons/fa6";
+
+function getLogo(logo) {
+  switch (logo) {
+    case "swift":
+      return <FaSwift size={36} />;
+    case "android":
+      return <FaAndroid size={36} />;
+    case "java":
+      return <FaJava size={36} />;
+    case "react":
+      return <FaReact size={36} />;
+    default:
+      return null;
+  }
+}
 
 export default function ProjectPage() {
   const projects = [
@@ -34,46 +56,15 @@ export default function ProjectPage() {
       logo: "swift",
       url: "https://github.com/aatmik-panse/zoloFrontendiOS",
     },
-    {
-      project: "Explore Books",
-      description: "This is an iOS app, which helps you explore books",
-      time: "February 2024",
-      logo: "swift",
-      url: "https://github.com/aatmik-panse/zoloFrontendiOS",
-    },
-    {
-      project: "Explore Books",
-      description: "This is an iOS app, which helps you explore books",
-      time: "February 2024",
-      logo: "swift",
-      url: "https://github.com/aatmik-panse/zoloFrontendiOS",
-    },
-    {
-      project: "Explore Books",
-      description: "This is an iOS app, which helps you explore books",
-      time: "February 2024",
-      logo: "swift",
-      url: "https://github.com/aatmik-panse/zoloFrontendiOS",
-    },
-    {
-      project: "Explore Books",
-      description: "This is an iOS app, which helps you explore books",
-      time: "February 2024",
-      logo: "swift",
-      url: "https://github.com/aatmik-panse/zoloFrontendiOS",
-    },
-    {
-      project: "Explore Books",
-      description: "This is an iOS app, which helps you explore books",
-      time: "February 2024",
-      logo: "swift",
-      url: "https://github.com/aatmik-panse/zoloFrontendiOS",
-    },
   ];
   return (
-    <div>
+    <div className="projectParent">
       <h1>Projects</h1>
-      <Link to="/">Go to Home</Link>
+
+      <Link to="/" className="backButton">
+        <FaArrowLeft size={20} />
+      </Link>
+
       <ResponsiveMasonry
         columnsCountBreakPoints={{ 350: 1, 650: 2, 800: 3, 1000: 4 }}
       >
@@ -84,6 +75,7 @@ export default function ProjectPage() {
               project={project.project}
               description={project.description}
               time={project.time}
+              logo={getLogo(project.logo)}
               url={project.url}
             />
           ))}
