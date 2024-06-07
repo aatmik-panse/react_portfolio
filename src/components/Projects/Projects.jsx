@@ -3,6 +3,7 @@ import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import ProjectCard from "./ProjectCard";
 import { FaSwift, FaAndroid, FaJava, FaReact } from "react-icons/fa6";
 import "./Projects.css";
+import { Link } from "react-router-dom";
 
 function getLogo(logo) {
   switch (logo) {
@@ -70,6 +71,7 @@ export default function Projects() {
           </Masonry>
         </ResponsiveMasonry>
       </div>
+      <Link to="/projectsPage">View all projects</Link>
     </div>
   );
 }
