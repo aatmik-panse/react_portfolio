@@ -7,16 +7,16 @@
   line-height: 1.6em;
   color: var(--var-soft-blue);
 }
-.who-i-am h1 {
+.who-i-am h2 {
   font-size: 3em;
   color: var(--var-main-title);
 }
 @media (max-width: 768px) {
-  .who-i-am h1 {
-    font-size: 2em; /* Smaller font size for smaller devices */
+  .who-i-am h2 {
+    font-size: 2em;
   }
   .who-i-am p {
-    font-size: 1em; /* Smaller font size for smaller devices */
+    font-size: 1em;
   }
 }
 

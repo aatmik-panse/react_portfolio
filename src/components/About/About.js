@@ -6,7 +6,7 @@ export default function About() {
     <div>
       <div className="container">
         <div className="who-i-am">
-          <h1>Who I am</h1>
+          <h2>Who I am</h2>
           <p>
             Hi! I'm Aatmik Panse, a Computer Science student with a keen
             interest in software development and technology. Studying at Scaler

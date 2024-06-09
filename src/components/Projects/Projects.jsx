@@ -77,7 +77,11 @@ export default function Projects() {
           </Masonry>
         </ResponsiveMasonry>
       </div>
-      <Link to="/projectsPage" className="viewAllButton">
+      <Link
+        to="/projectsPage"
+        className="viewAllButton"
+        aria-label="View all projects"
+      >
         <FaArrowRight />
       </Link>
     </div>
