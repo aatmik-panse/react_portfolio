@@ -11,44 +11,22 @@
   font-size: 3em;
   color: var(--var-main-title);
 }
+
 @media (max-width: 768px) {
+  .who-i-am {
+    margin-top: 20px;
+  }
   .who-i-am h2 {
-    font-size: 2em;
+    font-size: 2.5em;
   }
   .who-i-am p {
     font-size: 1em;
   }
-}
-
-.image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.image-container img {
-  width: 100%;
-  max-width: 900px;
-  height: 100%;
-  max-height: 500px;
-  padding: 28px;
-}
-@media (max-width: 768px) {
-  .image-container img {
-    max-width: 100%;
-    padding: 14px;
-  }
-}
-
-.rounded {
-  border-top: 8px solid #bbb;
-  border-radius: 5px;
-  width: 70%;
-}
-
-@media (max-width: 768px) {
-  .some-container {
-    display: flex;
+  .container {
     flex-direction: column;
+  }
+  .container img {
+    max-width: 300px;
+    max-height: 300px;
   }
 }

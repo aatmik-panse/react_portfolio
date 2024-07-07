@@ -9,8 +9,7 @@
 }
 
 #nbImg {
-  width: 50px;
-  height: 50px;
+  font-size: 3.3rem;
   margin-right: 20px;
   color: var(--var-main-title);
   cursor: pointer;
@@ -71,7 +70,11 @@ h1 {
 .popup-navbar {
   cursor: pointer;
 }
-
+.navIcons {
+  font-size: 1.8rem;
+  color: var(--var-main-title);
+  cursor: pointer;
+}
 .popup-navbar a:hover,
 h6:hover {
   color: var(--var-soft-blue);
@@ -89,4 +92,38 @@ h6 {
   font-weight: bold;
   unicode-bidi: isolate;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  #nbImg {
+    font-size: 2.5rem;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    margin-left: 15px;
+  }
+
+  .navIcons {
+    font-size: 1.2rem;
+  }
+  h6 {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .nb {
+    justify-content: space-around;
+  }
+  h1 {
+    font-size: 1.32rem;
+    margin-left: 10px;
+  }
+  #nbImg {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
 }

@@ -21,7 +21,7 @@ export default function Home() {
             aria-label="Github"
           >
             <i className="hIcon">
-              <FaGithub size={50} />
+              <FaGithub className="hIcon" />
             </i>
           </a>
           <a
@@ -31,17 +31,17 @@ export default function Home() {
             aria-label="Linkedin"
           >
             <i className="hIcon">
-              <FaLinkedin size={50} />
+              <FaLinkedin className="hIcon" />
             </i>
           </a>
           <a
-            href="https://twitter.com"
+            href="https://twitter.com/panseaatmik"
             target="_blank"
             rel="noreferrer"
             aria-label="Twitter"
           >
-            <i className="hIcon">
-              <FaTwitter size={50} />
+            <i>
+              <FaTwitter className="hIcon" />
             </i>
           </a>
         </div>

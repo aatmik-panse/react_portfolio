@@ -8,6 +8,7 @@
   font-weight: 500;
   box-sizing: border-box;
 }
+
 .left-container {
   display: flex;
   flex-direction: column;
@@ -21,6 +22,7 @@
   padding: 10px;
   box-sizing: border-box;
 }
+
 .hImg {
   width: 100%;
   max-width: 420px;
@@ -29,12 +31,14 @@
   position: relative;
   left: 52%;
 }
+
 .hIcon {
   cursor: pointer;
   margin: 5px;
   color: var(--var-main-title);
   transition: all 0.2s;
 }
+
 .hIcon:hover {
   color: var(--var-soft-blue);
   transition: all 0.2s;
@@ -62,6 +66,7 @@
   padding: 40px;
   box-sizing: border-box;
 }
+
 .hDesc {
   font-size: 1.2rem;
   font-weight: 400;
@@ -70,9 +75,11 @@
   width: 80%;
   text-align: center;
 }
+
 .hDesc {
   width: 70%;
 }
+
 .hName {
   font-size: 4.5vw;
   font-weight: 700;
@@ -90,6 +97,7 @@
   padding: 10px;
   width: 70%;
 }
+
 .hButton {
   background-color: var(--var-main-title);
   border: none;
@@ -103,6 +111,7 @@
   border-radius: 10px;
   transition: all 0.2s;
 }
+
 .hButton:hover {
   background-color: var(--var-soft-blue);
   scale: 1.06;
@@ -114,7 +123,12 @@
   font-weight: 500;
   margin-bottom: 20px;
 }
-
+.hIcon {
+  font-size: 3.5rem;
+  margin: 5px;
+  color: var(--var-main-title);
+  transition: all 0.2s;
+}
 .rightPara {
   font-weight: 400;
   line-height: 0.5;
@@ -124,4 +138,64 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  #home {
+    flex-direction: column;
+  }
+
+  .left-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .hImg {
+    left: 0;
+    margin-bottom: 20px;
+    width: 30%;
+    position: relative;
+    top: 60%;
+  }
+
+  .right-container {
+    width: 100%;
+    align-items: center;
+  }
+  .rightPara {
+    width: 80%;
+    justify-content: center;
+
+    text-align: center;
+  }
+  .hButton {
+    font-size: 1rem;
+  }
+
+  .rcAlign {
+    width: 100%;
+  }
+  #hLogos {
+    padding: 20px;
+  }
+  .hIcon {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Adjustments for extra small screens */
+  .hName {
+    font-size: 6vw;
+  }
+
+  .hDesc {
+    font-size: 1rem;
+  }
+
+  .rightPara {
+    width: 90%;
+  }
 }

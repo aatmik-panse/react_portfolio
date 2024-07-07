@@ -73,11 +73,7 @@ export default function Navbar() {
         <div className="nb">
           <h1>Aatmik Panse</h1>
           <i alt="logo" id="nbImg" onClick={togglePopup} ref={menuIconRef}>
-            {showPopup ? (
-              <FaXmark size={50} />
-            ) : (
-              <HiOutlineMenuAlt1 size={50} />
-            )}
+            {showPopup ? <FaXmark /> : <HiOutlineMenuAlt1 />}
           </i>
         </div>
       )}
@@ -86,25 +82,29 @@ export default function Navbar() {
           <ul>
             <li>
               <a href="#home" onClick={() => scrollToSection("home")}>
-                <FaHome size={28} />
+                <FaHome className="navIcons" />
                 <h6>Home</h6>
               </a>
             </li>
             <li>
               <a href="#about" onClick={() => scrollToSection("about")}>
-                <FaInfoCircle size={28} />
+                <FaInfoCircle className="navIcons" />
                 <h6>About</h6>
               </a>
             </li>
             <li>
               <a href="#education" onClick={() => scrollToSection("education")}>
-                <GiBrain size={28} />
+                <GiBrain className="navIcons" />
                 <h6>Education</h6>
               </a>
             </li>
             <li>
-              <a href="#projects" onClick={() => scrollToSection("projects")}>
-                <DiGoogleAnalytics size={28} />
+              <a
+                href="#projects"
+                className="navIcons"
+                onClick={() => scrollToSection("projects")}
+              >
+                <DiGoogleAnalytics className="navIcons" />
                 <h6>Projects</h6>
               </a>
             </li>
