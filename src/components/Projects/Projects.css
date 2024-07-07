@@ -2,6 +2,7 @@
   background-color: var(--var-main-darkest);
   color: var(--var-soft-blue);
   padding: 2.5em;
+  height: 100%;
 }
 .projectParent h1 {
   font-size: 3em;

@@ -32,7 +32,9 @@ export default function HomePage() {
         <div id="projects">
           <Projects />
         </div>
-        <Footer />
+        <div>
+          <Footer />
+        </div>
       </div>
     </div>
   );
