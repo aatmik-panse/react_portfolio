@@ -149,7 +149,7 @@
 
   .left-container {
     width: 100%;
-    height: auto;
+    height: 30vh;
   }
 
   .hImg {
@@ -162,6 +162,8 @@
 
   .right-container {
     width: 100%;
+    padding: 0;
+    height: 70vh;
     align-items: center;
   }
   .rightPara {
@@ -186,7 +188,6 @@
 }
 
 @media (max-width: 480px) {
-  /* Adjustments for extra small screens */
   .hName {
     font-size: 6vw;
   }
@@ -197,5 +198,11 @@
 
   .rightPara {
     width: 90%;
+  }
+  .right-container {
+    height: 80vh;
+  }
+  .left-container {
+    height: 20vh;
   }
 }

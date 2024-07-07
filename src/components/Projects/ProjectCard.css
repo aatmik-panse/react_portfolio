@@ -70,3 +70,18 @@ a {
   width: 2em;
   margin-right: 0.5em;
 }
+
+@media (max-width: 768px) {
+  .pc-card-container {
+    max-width: 100%;
+  }
+  .pc-main-content h2 {
+    font-size: 1.5em;
+  }
+  .pc-hero-image-container::after {
+    background-size: 3rem;
+  }
+  .pc-small-image {
+    width: 1.5em;
+  }
+}

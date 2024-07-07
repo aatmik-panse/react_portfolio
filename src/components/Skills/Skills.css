@@ -11,3 +11,9 @@
   font-size: 3em;
   color: var(--var-main-title);
 }
+
+@media (max-width: 768px) {
+  .skills-container h1 {
+    font-size: 2em;
+  }
+}

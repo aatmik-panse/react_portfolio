@@ -27,3 +27,20 @@
   max-width: auto;
   height: 75vh;
 }
+
+@media (max-width: 768px) {
+  .edContainer {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .education {
+    max-width: 100%;
+    font-size: 0.75em;
+  }
+
+  .image-container img {
+    max-width: 350px;
+    max-height: 350px;
+  }
+}

@@ -27,3 +27,20 @@
   max-width: auto;
   height: 70vh;
 }
+
+@media (max-width: 768px) {
+  .exContainer {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .experience {
+    max-width: 100%;
+    font-size: 0.75em;
+  }
+
+  .image-container img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}

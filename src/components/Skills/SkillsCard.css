@@ -38,3 +38,23 @@
   font-style: normal;
   z-index: 10;
 }
+
+@media (max-width: 768px) {
+  .skills-card {
+    min-width: 8rem;
+    max-width: 8rem;
+    min-height: 8rem;
+    max-height: 8rem;
+  }
+
+  .skills-card img {
+    width: 40%;
+    margin: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .skills-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+}

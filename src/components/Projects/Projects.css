@@ -26,3 +26,18 @@
   justify-content: center;
   margin-left: 1em;
 }
+
+@media (max-width: 768px) {
+  .projectParent {
+    padding: 1em;
+  }
+  .projectParent h1 {
+    font-size: 2em;
+  }
+  .viewAllButton {
+    width: 3vw;
+    height: 3vw;
+    padding: 0.5em;
+    font-size: 1em;
+  }
+}

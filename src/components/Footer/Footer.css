@@ -171,3 +171,26 @@
     margin-left: 0;
   }
 }
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    padding: 1em;
+  }
+
+  .footer-left {
+    width: 100%;
+  }
+
+  .footer-center {
+    width: 100%;
+  }
+
+  .footer-right {
+    width: 100%;
+  }
+
+  .footer-distributed {
+    padding: 1em;
+  }
+}
