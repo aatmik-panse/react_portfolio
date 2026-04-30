@@ -28,11 +28,11 @@ export const featuredProjects: Project[] = [
     color: 'peach',
   },
   {
-    title: 'synap',
+    title: 'chrome-reader',
     description:
-      'Personal knowledge graph. Links notes, repos, and conversations into a queryable second brain.',
-    tech: ['Python', 'LLMs', 'Vector DB'],
-    repo: 'https://github.com/aatmik-panse/synap',
+      'Chrome extension that strips ads, sidebars, and clutter from any article for a clean reading layout. Tiny content-script footprint, TypeScript end-to-end.',
+    tech: ['TypeScript', 'Chrome Extensions', 'MV3'],
+    repo: 'https://github.com/aatmik-panse/chrome-reader',
     color: 'ochre',
   },
   {
@@ -43,15 +43,6 @@ export const featuredProjects: Project[] = [
     repo: 'https://github.com/aatmik-panse/tryonforshopify',
     live: 'https://apps.shopify.com/vto',
     color: 'cream',
-  },
-  {
-    title: 'ascend',
-    description:
-      'Goal-tracking web app. Habits, streaks, and weekly reviews wrapped in a focused single-page surface.',
-    tech: ['JavaScript', 'React'],
-    repo: 'https://github.com/aatmik-panse/ascend',
-    live: 'https://ascend-teal.vercel.app',
-    color: 'lavender',
   },
 ];
 
