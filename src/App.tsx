@@ -1,7 +1,12 @@
+import { Nav } from './components/sections/Nav';
+
 export default function App() {
   return (
-    <main className="min-h-screen bg-canvas text-ink">
-      <p className="p-section font-display text-display-md">Aatmik Panse</p>
-    </main>
+    <div id="top">
+      <Nav />
+      <main className="mx-auto max-w-content px-lg py-section">
+        <p className="font-display text-display-lg">Sections coming next.</p>
+      </main>
+    </div>
   );
 }
