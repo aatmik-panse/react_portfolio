@@ -30,7 +30,7 @@ export function FeaturedWork() {
             {featured.url && (
               <div className="mt-lg">
                 <Button href={featured.url} variant="onColor">
-                  Visit gradonix.com ↗
+                  View on Shopify App Store ↗
                 </Button>
               </div>
             )}

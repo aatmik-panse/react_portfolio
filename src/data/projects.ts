@@ -1,4 +1,4 @@
-export type ProjectColor = 'lavender' | 'peach' | 'ochre';
+export type ProjectColor = 'lavender' | 'peach' | 'ochre' | 'cream';
 
 export type Project = {
   title: string;
@@ -20,20 +20,38 @@ export const featuredProjects: Project[] = [
     date: 'Feb 2025',
   },
   {
+    title: 'redisInGO',
+    description:
+      'A toy Redis server reimplemented in Go. RESP protocol, expiry, and core commands - built to learn the wire format and event loop from scratch.',
+    tech: ['Go', 'TCP', 'RESP'],
+    repo: 'https://github.com/aatmik-panse/redisInGO',
+    color: 'peach',
+  },
+  {
     title: 'synap',
     description:
-      'Personal knowledge graph - links notes, repos, and conversations into a queryable second brain.',
+      'Personal knowledge graph. Links notes, repos, and conversations into a queryable second brain.',
     tech: ['Python', 'LLMs', 'Vector DB'],
     repo: 'https://github.com/aatmik-panse/synap',
-    color: 'peach',
+    color: 'ochre',
   },
   {
     title: 'tryonforshopify',
     description:
-      'Shopify app that lets shoppers virtually try on apparel before checkout. Ships with the storefront in <1s LCP.',
+      'Shopify app that lets shoppers virtually try on apparel before checkout. Ships with the storefront under 1s LCP.',
     tech: ['JavaScript', 'Shopify', 'Python'],
     repo: 'https://github.com/aatmik-panse/tryonforshopify',
-    color: 'ochre',
+    live: 'https://apps.shopify.com/vto',
+    color: 'cream',
+  },
+  {
+    title: 'ascend',
+    description:
+      'Goal-tracking web app. Habits, streaks, and weekly reviews wrapped in a focused single-page surface.',
+    tech: ['JavaScript', 'React'],
+    repo: 'https://github.com/aatmik-panse/ascend',
+    live: 'https://ascend-teal.vercel.app',
+    color: 'lavender',
   },
 ];
 
@@ -68,17 +86,17 @@ export const ossHighlights: OssRepo[] = [
     pushed: 'Jun 2025',
   },
   {
-    name: 'redisInGO',
-    description: 'A toy Redis server reimplemented in Go.',
-    language: 'Go',
-    url: 'https://github.com/aatmik-panse/redisInGO',
-    pushed: 'May 2025',
+    name: 'LilPicasso',
+    description: 'Browser drawing pad with shareable canvases.',
+    language: 'JavaScript',
+    url: 'https://github.com/aatmik-panse/LilPicasso',
+    pushed: 'Mar 2025',
   },
   {
-    name: 'ascend',
-    description: 'Goal-tracking web app - habits, streaks, and weekly reviews.',
-    language: 'JavaScript',
-    url: 'https://github.com/aatmik-panse/ascend',
-    pushed: 'May 2025',
+    name: 'TuneMeiOS',
+    description: 'iOS music companion built in Swift.',
+    language: 'Swift',
+    url: 'https://github.com/aatmik-panse/TuneMeiOS',
+    pushed: 'Apr 2025',
   },
 ];

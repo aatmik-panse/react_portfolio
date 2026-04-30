@@ -10,11 +10,23 @@ export type Experience = {
 
 export const experience: Experience[] = [
   {
+    company: 'Fitz: Bulk AI Product Images',
+    role: 'Founder & Full Stack Engineer',
+    dates: 'Feb 2026 - Present',
+    location: 'Remote',
+    featured: true,
+    url: 'https://apps.shopify.com/vto',
+    bullets: [
+      'Building a Shopify app that generates clean, on-brand product imagery in bulk from raw photos using AI.',
+      'Cuts the cost of high-quality product photography for merchants from per-shoot studio rates to per-image API costs.',
+      'Stack: Shopify App Bridge, Node.js, Python, image generation pipelines.',
+    ],
+  },
+  {
     company: 'Gradonix',
     role: 'Founder & Full Stack Engineer',
     dates: 'Aug 2025 - Jan 2026',
     location: 'Remote',
-    featured: true,
     url: 'https://gradonix.com',
     bullets: [
       'Built an agentic AI grading platform that autonomously extracts, evaluates, and scores handwritten and typed student answers against dynamic marking schemes.',
