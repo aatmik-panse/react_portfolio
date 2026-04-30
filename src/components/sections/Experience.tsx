@@ -18,7 +18,7 @@ export function Experience() {
             <ul className="flex flex-col gap-xs mt-sm">
               {e.bullets.slice(0, 2).map((b, i) => (
                 <li key={i} className="text-body-sm text-body leading-relaxed">
-                  — {b}
+                  - {b}
                 </li>
               ))}
             </ul>

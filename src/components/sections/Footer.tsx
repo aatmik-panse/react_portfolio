@@ -59,7 +59,7 @@ export function Footer() {
           ))}
         </div>
         <p className="mt-xxl text-caption text-muted-soft">
-          © {new Date().getFullYear()} {profile.name}. Built in cream.
+          © {new Date().getFullYear()} {profile.name}
         </p>
       </div>
       <div className="opacity-60 pointer-events-none">

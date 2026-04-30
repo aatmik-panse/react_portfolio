@@ -23,7 +23,7 @@ export function FeaturedWork() {
             <ul className="mt-md flex flex-col gap-sm">
               {featured.bullets.map((b, i) => (
                 <li key={i} className="text-body-md leading-relaxed opacity-95">
-                  — {b}
+                  - {b}
                 </li>
               ))}
             </ul>
@@ -37,7 +37,7 @@ export function FeaturedWork() {
           </div>
           <div className="lg:col-span-5 flex items-center justify-center">
             <div className="aspect-video w-full rounded-lg bg-surface-dark-elevated/40 grid place-items-center text-on-primary/50 text-caption-up">
-              PRODUCT SHOT — UPLOAD AS /2.jpg
+              PRODUCT SHOT - UPLOAD AS /2.jpg
             </div>
           </div>
         </div>

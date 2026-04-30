@@ -9,7 +9,7 @@ export function Cta() {
         <div className="relative z-10 flex flex-col gap-md max-w-2xl">
           <h2 className="font-display text-display-md text-ink">Let's build something.</h2>
           <p className="text-body-md text-body">
-            I'm available for freelance and full-time work. Drop a line — I usually reply within
+            I'm available for freelance and full-time work. Drop a line - I usually reply within
             a day.
           </p>
           <div className="flex flex-wrap gap-md mt-sm">

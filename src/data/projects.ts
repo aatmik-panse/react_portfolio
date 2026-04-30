@@ -14,7 +14,7 @@ export const featuredProjects: Project[] = [
   {
     title: 'PhotoSage',
     description:
-      'iOS app for private, ultra-fast photo search. On-device ML using CLIP — search your camera roll with natural language. 100 installs in the first week.',
+      'iOS app for private, ultra-fast photo search. On-device ML using CLIP - search your camera roll with natural language. 100 installs in the first week.',
     tech: ['Swift', 'SwiftUI', 'CLIP', 'CoreML'],
     color: 'lavender',
     date: 'Feb 2025',
@@ -22,7 +22,7 @@ export const featuredProjects: Project[] = [
   {
     title: 'synap',
     description:
-      'Personal knowledge graph — links notes, repos, and conversations into a queryable second brain.',
+      'Personal knowledge graph - links notes, repos, and conversations into a queryable second brain.',
     tech: ['Python', 'LLMs', 'Vector DB'],
     repo: 'https://github.com/aatmik-panse/synap',
     color: 'peach',
@@ -76,7 +76,7 @@ export const ossHighlights: OssRepo[] = [
   },
   {
     name: 'ascend',
-    description: 'Goal-tracking web app — habits, streaks, and weekly reviews.',
+    description: 'Goal-tracking web app - habits, streaks, and weekly reviews.',
     language: 'JavaScript',
     url: 'https://github.com/aatmik-panse/ascend',
     pushed: 'May 2025',
