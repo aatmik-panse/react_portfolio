@@ -16,7 +16,7 @@ export function Nav() {
     <nav className="sticky top-0 z-50 bg-canvas/95 backdrop-blur-sm border-b border-hairline">
       <div className="mx-auto max-w-content h-16 px-lg flex items-center justify-between">
         <a href="#top" className="font-display text-title-lg tracking-[-0.02em]">
-          {profile.name.split(' ')[0]}
+          {profile.name}
         </a>
         <ul className="hidden md:flex items-center gap-xl">
           {items.map((it) => (

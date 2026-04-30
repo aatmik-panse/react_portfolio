@@ -9,6 +9,7 @@ export function Hero() {
     <section className="mx-auto max-w-content px-lg pt-section pb-section">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-xxl items-center">
         <div className="lg:col-span-7 flex flex-col gap-lg">
+          <p className="text-caption-up text-muted">{profile.name.toUpperCase()}</p>
           <h1 className="font-display text-display-lg lg:text-display-xl text-ink">
             {profile.tagline}
           </h1>
