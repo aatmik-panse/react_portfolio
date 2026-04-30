@@ -12,6 +12,14 @@
 /build
 /dist
 
+# tsc -b build artifacts (emitted from tsconfig.node.json composite project)
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+tailwind.config.js
+tailwind.config.d.ts
+postcss.config.d.ts
+
 # legacy snapshot
 /.archive/
 
