@@ -1,4 +1,4 @@
-export const CDN_BASE = 'https://aatmik.de';
+export const CDN_BASE = 'https://cdn.aatmik.de';
 
 export function cdnUrl(filename: string): string {
   const clean = filename.startsWith('/') ? filename.slice(1) : filename;
