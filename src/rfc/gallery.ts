@@ -9,6 +9,13 @@ export type Photo = {
 
 export const photos: Photo[] = [
   {
+    src: '/gallery/aatmik-panse-sunglasses.jpg',
+    width: 1600,
+    height: 1200,
+    alt: 'Aatmik Panse in sunglasses on a balcony, with green mountains and coconut palms behind him',
+    caption: 'Mountains, palms, sunglasses.',
+  },
+  {
     src: '/gallery/aatmik-panse-skydive.jpg',
     width: 1600,
     height: 1400,
