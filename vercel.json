@@ -4,6 +4,14 @@
   "outputDirectory": "dist",
   "installCommand": "bun install",
   "framework": null,
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "portfolio-six-beta-19.vercel.app" }],
+      "destination": "https://www.aatmik.de/$1",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
