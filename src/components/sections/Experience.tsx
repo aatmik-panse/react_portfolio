@@ -11,7 +11,7 @@ export function Experience() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-lg">
         {others.map((e) => (
-          <FeatureCard key={e.company} variant="cream">
+          <FeatureCard key={`${e.company}-${e.dates}`} variant="cream">
             <p className="text-caption-up text-muted">{e.dates}</p>
             <h3 className="font-display text-title-lg">{e.company}</h3>
             <p className="text-title-md text-body-strong">{e.role}</p>

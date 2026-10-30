@@ -35,6 +35,17 @@ export const experience: Experience[] = [
     ],
   },
   {
+    company: 'Profitonium Apps',
+    role: 'Software Development Engineer',
+    dates: 'Mar 2025 - May 2026',
+    location: 'Remote',
+    bullets: [
+      'Built and maintained features for production Shopify apps used by merchants worldwide.',
+      'Improved app performance and Core Web Vitals to meet Built for Shopify (BFS) standards.',
+      'Worked across the stack on backend reliability, concurrency handling and storefront integrations.',
+    ],
+  },
+  {
     company: 'Gradonix',
     role: 'Founder & Full Stack Engineer',
     dates: 'Aug 2025 - Feb 2026',
