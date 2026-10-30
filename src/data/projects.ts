@@ -36,7 +36,7 @@ export const featuredProjects: Project[] = [
     color: 'ochre',
   },
   {
-    title: 'Fitz',
+    title: 'Bulky',
     description:
       'Shopify app for bulk AI-generated product images and virtual try-on. Helps merchants ship clean, on-brand storefront imagery without studio shoots.',
     tech: ['JavaScript', 'Shopify', 'Python', 'AI'],
