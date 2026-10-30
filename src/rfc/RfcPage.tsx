@@ -1,6 +1,6 @@
 import '@fontsource-variable/geist-mono';
 import type { ReactNode } from 'react';
-import { experience, featuredProjects, ossHighlights, education, links, pitch, stack, profile } from './content';
+import { experience, featuredProjects, ossHighlights, education, links, stack, profile, lastUpdated, monthYear } from './content';
 
 // RFC variant: print-emulating document, light-only by design.
 const ACCENT = '#c4320a';
@@ -32,7 +32,6 @@ function A({ href, children }: { href: string; children: ReactNode }) {
 
 export default function Rfc() {
   const [current, ...prior] = experience;
-  const today = new Date().toLocaleString('en-US', { month: 'long', year: 'numeric' });
   return (
     <div className="min-h-[100dvh] bg-[#f6f6f4] text-[#1c1c1c]" style={{ fontFamily: '"Geist Mono Variable", monospace' }}>
       <main className="mx-auto max-w-[78ch] px-4 py-12 text-[14px] leading-[1.7] md:py-20">
@@ -45,7 +44,9 @@ export default function Rfc() {
           <div className="sm:text-right">
             <p>A. Panse</p>
             <p>getSichtbar</p>
-            <p>{today}</p>
+            <p>
+              <time dateTime={lastUpdated}>{monthYear(lastUpdated)}</time>
+            </p>
           </div>
         </header>
 
@@ -57,8 +58,10 @@ export default function Rfc() {
         <section className="mt-12">
           <h2 className="font-bold">Abstract</h2>
           <p className="mt-3 pl-[3ch]">
-            This document describes Aatmik Panse, a Technical Product Lead at getSichtbar. {pitch} It is intended for
-            engineers, founders and hiring teams who want the short version.
+            Aatmik Panse is a Technical Product Lead at getSichtbar in Bengaluru, India, building AI visibility and
+            search products from the first client call to the shipped code. getSichtbar helps
+            e-commerce brands, deep tech companies, agencies and hotel chains get found in search engines and in
+            AI-generated answers. This document is the short version, for engineers, founders and hiring teams.
           </p>
           <div className="mt-6 flex flex-wrap gap-3 pl-[3ch]">
             <a href={links.email} className="px-4 py-2 font-bold text-white transition-transform active:scale-[0.98]" style={{ background: ACCENT }}>

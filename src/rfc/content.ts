@@ -11,8 +11,16 @@ export const links = {
   linkedin: profile.links.linkedin,
 };
 
-export const pitch =
-  'I build AI visibility and search products, from the first client call to the shipped code.';
+/** Build date, so prerendered HTML and the hydrated page agree and dateModified stays fresh per deploy. */
+export const lastUpdated: string = __BUILD_DATE__;
+
+const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+/** "2026-10-30" -> "October 2026", without locale or timezone dependence. */
+export function monthYear(iso: string): string {
+  const [year, month] = iso.split('-');
+  return `${MONTHS[Number(month) - 1]} ${year}`;
+}
 
 export const stack = [
   'TypeScript',
