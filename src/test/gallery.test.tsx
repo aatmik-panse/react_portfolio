@@ -44,7 +44,13 @@ describe('gallery', () => {
   });
 
   it('lists "Aatmik" as an alternate name for first-name searches', () => {
-    const person = buildJsonLd('2026-10-30')['@graph'][1] as Record<string, unknown>;
+    const graph = buildJsonLd('2026-10-30')['@graph'] as Record<string, unknown>[];
+    const person = graph.find((n) => n['@type'] === 'Person')!;
     expect(person.alternateName).toBe('Aatmik');
+  });
+
+  it('names the site "Aatmik" for the search result site name', () => {
+    const graph = buildJsonLd('2026-10-30')['@graph'] as Record<string, unknown>[];
+    expect(graph.find((n) => n['@type'] === 'WebSite')).toMatchObject({ name: 'Aatmik', url: 'https://www.aatmik.de/' });
   });
 });

@@ -42,7 +42,7 @@ export default function Rfc() {
             <p>Category: Informational</p>
           </div>
           <div className="sm:text-right">
-            <p>A. Panse</p>
+            <p>Aatmik Panse</p>
             <p>getSichtbar</p>
             <p>
               <time dateTime={lastUpdated}>{monthYear(lastUpdated)}</time>
@@ -95,11 +95,11 @@ export default function Rfc() {
         <H2 n={1} id="intro">Introduction</H2>
         <div className="mt-3 space-y-4 pl-[3ch]">
           <p>
-            The author works across product and engineering: discovery calls, product strategy, architecture and
+            Aatmik works across product and engineering: discovery calls, product strategy, architecture and
             hands-on code. Most weeks that means TypeScript and Python, and shaping what gets built next.
           </p>
           <p>
-            The key words "SHIP", "MEASURE" and "ITERATE" in this document are to be interpreted as the author's
+            The key words "SHIP", "MEASURE" and "ITERATE" in this document are to be interpreted as Aatmik's
             default working loop.
           </p>
         </div>
@@ -193,7 +193,7 @@ export default function Rfc() {
         </address>
 
         <footer className="mt-20 flex justify-between border-t border-[#d6d6d2] pt-4 text-[#77787c]">
-          <span>Panse</span>
+          <span>Aatmik Panse</span>
           <span>Informational</span>
           <span>[Page 1]</span>
         </footer>

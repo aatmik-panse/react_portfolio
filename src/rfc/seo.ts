@@ -58,11 +58,25 @@ function person() {
   };
 }
 
-/** schema.org ProfilePage + Person graph, built from the same data the page renders. */
+/** WebSite node: lets Google show "Aatmik" as the site name in results. */
+function website() {
+  return {
+    '@type': 'WebSite',
+    '@id': `${SITE_URL}#website`,
+    url: SITE_URL,
+    name: 'Aatmik',
+    alternateName: ['Aatmik Panse', 'aatmik.de'],
+    publisher: { '@id': PERSON_ID },
+    inLanguage: 'en',
+  };
+}
+
+/** schema.org WebSite + ProfilePage + Person graph, built from the same data the page renders. */
 export function buildJsonLd(lastUpdated: string) {
   return {
     '@context': 'https://schema.org',
     '@graph': [
+      website(),
       {
         '@type': 'ProfilePage',
         '@id': `${SITE_URL}#profile`,
@@ -71,6 +85,7 @@ export function buildJsonLd(lastUpdated: string) {
         description: seo.description,
         dateModified: lastUpdated,
         inLanguage: 'en',
+        isPartOf: { '@id': `${SITE_URL}#website` },
         mainEntity: { '@id': PERSON_ID },
       },
       person(),
