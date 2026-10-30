@@ -10,6 +10,18 @@ export type Experience = {
 
 export const experience: Experience[] = [
   {
+    company: 'getSichtbar',
+    role: 'Technical Product Lead',
+    dates: 'Jun 2026 - Present',
+    location: 'Remote',
+    url: 'https://getsichtbar.com',
+    bullets: [
+      'Lead product and engineering for an AI-visibility platform that helps brands get found in search engines and AI-generated answers, serving e-commerce, deep tech, agencies and hospitality groups.',
+      'Work directly with clients from discovery to delivery, turning business needs into shipped features across architecture and hands-on development.',
+      'Shipped 4,000+ commits in 4 months across Next.js, TypeScript, Supabase and Shopify integrations, including GEO/citation tracking, content pipelines and Slack automations.',
+    ],
+  },
+  {
     company: 'Fitz: Bulk AI Product Images',
     role: 'Founder & Full Stack Engineer',
     dates: 'Feb 2026 - Present',
@@ -25,7 +37,7 @@ export const experience: Experience[] = [
   {
     company: 'Gradonix',
     role: 'Founder & Full Stack Engineer',
-    dates: 'Aug 2025 - Jan 2026',
+    dates: 'Aug 2025 - Feb 2026',
     location: 'Remote',
     url: 'https://gradonix.com',
     bullets: [
