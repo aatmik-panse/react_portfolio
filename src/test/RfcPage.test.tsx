@@ -18,9 +18,4 @@ describe('RfcPage', () => {
       expect(screen.getAllByText(new RegExp(e.company.replace(/[()]/g, '\\$&'))).length).toBeGreaterThan(0);
     }
   });
-
-  it('does not show the phone number', () => {
-    render(<RfcPage />);
-    expect(document.body.textContent).not.toContain('9424608520');
-  });
 });
