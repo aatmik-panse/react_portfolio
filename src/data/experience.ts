@@ -2,9 +2,7 @@ export type Experience = {
   company: string;
   role: string;
   dates: string;
-  location: string;
   bullets: string[];
-  featured?: boolean;
   url?: string;
 };
 
@@ -13,7 +11,6 @@ export const experience: Experience[] = [
     company: 'getSichtbar',
     role: 'Technical Product Lead',
     dates: 'Jun 2026 - Present',
-    location: 'Remote',
     url: 'https://getsichtbar.com',
     bullets: [
       'Lead product and engineering for an AI-visibility platform that helps brands get found in search engines and AI-generated answers, serving e-commerce, deep tech, agencies and hospitality groups.',
@@ -25,8 +22,6 @@ export const experience: Experience[] = [
     company: 'Bulky: Bulk AI Image Editor',
     role: 'Founder & Full Stack Engineer',
     dates: 'Feb 2026 - Present',
-    location: 'Remote',
-    featured: true,
     url: 'https://apps.shopify.com/vto',
     bullets: [
       'Building a Shopify app that generates studio-quality product photos in bulk and edits entire catalogs at scale using AI, for any product category.',
@@ -38,7 +33,6 @@ export const experience: Experience[] = [
     company: 'Profitonium Apps',
     role: 'Software Development Engineer',
     dates: 'Mar 2025 - May 2026',
-    location: 'Remote',
     bullets: [
       'Built and maintained features for production Shopify apps used by merchants worldwide.',
       'Improved app performance and Core Web Vitals to meet Built for Shopify (BFS) standards.',
@@ -49,7 +43,6 @@ export const experience: Experience[] = [
     company: 'Gradonix',
     role: 'Founder & Full Stack Engineer',
     dates: 'Aug 2025 - Feb 2026',
-    location: 'Remote',
     url: 'https://gradonix.com',
     bullets: [
       'Built an agentic AI grading platform that autonomously extracts, evaluates, and scores handwritten and typed student answers against dynamic marking schemes.',
@@ -61,7 +54,6 @@ export const experience: Experience[] = [
     company: 'Skai Lama',
     role: 'Full Stack Developer Intern (MERN)',
     dates: 'Sep 2024 - Feb 2025',
-    location: 'Remote',
     bullets: [
       'Shipped features for production Shopify apps that reduced onboarding and product creation time by 50%.',
       'Built subscription modal and billing flows within the Shopify app ecosystem.',
@@ -72,7 +64,6 @@ export const experience: Experience[] = [
     company: 'Profitonium Apps',
     role: 'Full Stack Developer Intern (MERN)',
     dates: 'Jun 2024 - Aug 2024',
-    location: 'Remote',
     bullets: [
       'Optimized Core Web Vitals focusing on CLS, improving layout stability and page experience.',
       'Implemented backend optimizations using locking mechanisms for concurrency and reliability.',
@@ -83,7 +74,6 @@ export const experience: Experience[] = [
     company: 'Zolo Co-Living',
     role: 'Android Developer Intern',
     dates: 'Feb 2024 - May 2024',
-    location: 'Remote',
     bullets: [
       'Built an Android book-sharing app in a 2-member team using Kotlin and XML.',
       'Implemented borrowing, posting, and transaction history features.',

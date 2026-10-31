@@ -1,22 +1,19 @@
-@import '@fontsource-variable/inter';
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   html {
-    background-color: theme(colors.canvas);
-    color: theme(colors.ink);
-    font-family: theme(fontFamily.sans);
+    background-color: #f6f6f4;
+    color: #1c1c1c;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     scroll-behavior: smooth;
   }
 
   body {
-    background-color: theme(colors.canvas);
-    color: theme(colors.body);
+    background-color: #f6f6f4;
+    color: #1c1c1c;
   }
 
   @media (prefers-reduced-motion: reduce) {
